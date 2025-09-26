@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/financeflow-app/static/css/main.e6c13ad2.css",
+    "main.js": "/financeflow-app/static/js/main.8b3e107f.js",
+    "static/js/453.70817ae2.chunk.js": "/financeflow-app/static/js/453.70817ae2.chunk.js",
+    "index.html": "/financeflow-app/index.html",
+    "main.e6c13ad2.css.map": "/financeflow-app/static/css/main.e6c13ad2.css.map",
+    "main.8b3e107f.js.map": "/financeflow-app/static/js/main.8b3e107f.js.map",
+    "453.70817ae2.chunk.js.map": "/financeflow-app/static/js/453.70817ae2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.8b3e107f.js"
+  ]
+}
