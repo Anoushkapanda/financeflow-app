@@ -252,26 +252,26 @@ const FinanceTracker = () => {
           </div>
           
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4 sm:gap-6 pr-16 sm:pr-20 lg:pr-4 lg:pr-24">
-            <div className="flex items-center gap-3 sm:gap-4">
-              <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 bg-gradient-to-r from-violet-500 to-purple-600 rounded-xl sm:rounded-2xl flex items-center justify-center shadow-lg">
-                <Wallet className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 text-white" />
-              </div>
-              <div>
-                <h1 className={`text-2xl sm:text-3xl lg:text-4xl font-bold ${themeClasses.textPrimary} mb-1 sm:mb-2 transition-colors duration-300`}>FinanceFlow</h1>
-                <p className={`${themeClasses.textSecondary} text-sm sm:text-base lg:text-lg transition-colors duration-300`}>Smart money management made beautiful</p>
-              </div>
-            </div>
-            
-            <div className="flex justify-end w-full lg:flex-shrink-0">
-              <button
-                onClick={() => setShowAddForm(!showAddForm)}
-                className={`${themeClasses.buttonPrimary} px-6 py-3 sm:px-8 sm:py-4 lg:px-12 lg:py-5 rounded-xl sm:rounded-xl lg:rounded-2xl flex items-center gap-2 sm:gap-3 lg:gap-4 transition-all duration-300 shadow-lg sm:shadow-xl hover:shadow-violet-500/30 hover:scale-105 font-semibold text-base sm:text-lg lg:text-xl w-full sm:w-full lg:min-w-[280px] justify-center`}
-              >
-                <Plus className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7" />
-                <span>New Transaction</span>
-              </button>
-            </div>
-          </div>
+  <div className="flex items-center gap-3 sm:gap-4">
+    <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 bg-gradient-to-r from-violet-500 to-purple-600 rounded-xl sm:rounded-2xl flex items-center justify-center shadow-lg">
+      <Wallet className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 text-white" />
+    </div>
+    <div>
+      <h1 className={`text-2xl sm:text-3xl lg:text-4xl font-bold ${themeClasses.textPrimary} mb-1 sm:mb-2 transition-colors duration-300`}>FinanceFlow</h1>
+      <p className={`${themeClasses.textSecondary} text-sm sm:text-base lg:text-lg transition-colors duration-300`}>Smart money management made beautiful</p>
+    </div>
+  </div>
+  
+  <div className="flex justify-end w-full lg:w-auto lg:flex-shrink-0">
+    <button
+      onClick={() => setShowAddForm(!showAddForm)}
+      className={`${themeClasses.buttonPrimary} px-6 py-3 sm:px-8 sm:py-4 lg:px-12 lg:py-5 rounded-xl sm:rounded-xl lg:rounded-2xl flex items-center gap-2 sm:gap-3 lg:gap-4 transition-all duration-300 shadow-lg sm:shadow-xl hover:shadow-violet-500/30 hover:scale-105 font-semibold text-base sm:text-lg lg:text-xl w-full sm:w-full lg:w-auto lg:max-w-[300px] justify-center`}
+    >
+      <Plus className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7" />
+      <span>New Transaction</span>
+    </button>
+  </div>
+</div>
         </div>
 
         {showAddForm && (
